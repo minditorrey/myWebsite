@@ -607,6 +607,50 @@
     background: #333;
     color: #ff7f66;
 }
+
+ 
+/*#Portfolio .work .projectThumb {
+    position: absolute;
+    bottom: 18%;
+    left: 34%;
+    min-height: 60px;
+    max-height: 60px;
+    z-index: 1;
+
+
+}*/
+
+#Portfolio .work {
+    background-color: #FF7F66;
+    min-height: 200px;
+    max-height: 200px;
+    box-shadow: 0px 2px 3px #ccc;
+    -moz-box-shadow: 0px 2px 3px #ccc;
+    -webkit-box-shadow: 0px 2px 3px #ccc;
+    -o-box-shadow: 0px 2px 3px #ccc;
+    -ms-box-shadow: 0px 2px 3px #ccc;
+
+}
+#Portfolio .work h2 {
+    -webkit-box-shadow: none;
+    color: white;
+    background-color: #FF7F66;
+    font-weight: bold;
+}
+
+#Portfolio .work p {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: white;
+    font-size: 18px;
+}
+
+#Portfolio .work .btn {
+    margin-top: 1%;
+    background-color: #d86173;
+    color: white;
+}
+
 #Portfolio .Slider div.work {
     padding: 25px 12.5px;
     height: 250px;
