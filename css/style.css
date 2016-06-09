@@ -1140,6 +1140,7 @@
 .vidWell {
     min-height: 400px;
     max-height: 400px;
+    color: #525151;
 }
 
 .responsive-video {
