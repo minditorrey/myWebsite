@@ -219,7 +219,7 @@
 }
 #About .row .profileBlock img {
     background: #ccc;
-    width: 145px;
+    width: 165px;
     border-radius: 100%;
     height: 140px;
     display: block;
@@ -468,8 +468,14 @@
     font-family: 'Abel';
 }
 
+#About .row .aboutMe .love .loveDiv p {
+    font-size: 28px;
+}
+
 #About .row .aboutMe .love .loveDiv {
     padding: 5%;
+    text-align: center;
+    font-size: 24px;
 }
 #About .row .aboutMe .love .strengthDiv {
     padding: 5%;
