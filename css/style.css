@@ -481,7 +481,13 @@
     padding: 5%;
 }
 
+.left {
+    margin-left: 5%;
+}
 
+.top {
+    margin-top: 5%;
+}
 #Skills .row2 {
     margin-top: 2%;
 }
