@@ -200,9 +200,7 @@
     margin: 0px;
 }
 /*About*/
-#About {
-    margin-top: 60px;
-}
+
 #About .row .profileBlock {
     background: #fff;
     border-radius: 4px;
@@ -545,7 +543,7 @@
     margin-top: 49.143px !important;
 }
 /* Portfolio */
-#Portfolio, #About, #Resume {
+#Portfolio, #About #Resume {
     background-size: 100%;
     min-height: 350px;
     margin-top: 60px;
@@ -600,7 +598,7 @@
     text-align: center;
     text-transform: uppercase;
     padding: 15px 0px;
-    
+
 }
 #Portfolio h2 a.next {
     background: #ff7f66;
@@ -668,8 +666,8 @@
 
 #Portfolio .work {
     background-color: #FF7F66;
-    min-height: 475px;
-    max-height: 475px;
+    min-height: 500px;
+    max-height: 500px;
     box-shadow: 0px 2px 3px #ccc;
     -moz-box-shadow: 0px 2px 3px #ccc;
     -webkit-box-shadow: 0px 2px 3px #ccc;
@@ -1165,7 +1163,7 @@
     -ms-transform: scale(1.2,1.2);
 }
 
-.portfolioRow {
+.portfolioRow, .aboutRow {
     margin-top: 30px;
     margin-bottom: 30px;
     text-align: center;
