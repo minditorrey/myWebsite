@@ -545,12 +545,47 @@
     margin-top: 49.143px !important;
 }
 /* Portfolio */
-#Portfolio {
+#Portfolio, #About, #Resume {
     background-size: 100%;
     min-height: 350px;
     margin-top: 60px;
 }
+
 #Portfolio h2 {
+    background: #fff;
+    box-shadow: 0px 2px 3px #ccc;
+    -moz-box-shadow: 0px 2px 3px #ccc;
+    -webkit-box-shadow: 0px 2px 3px #ccc;
+    -o-box-shadow: 0px 2px 3px #ccc;
+    -ms-box-shadow: 0px 2px 3px #ccc;
+    border-radius: 3px;
+    color: #ff7f66;
+    font-size: 35px;
+    font-family: 'Abel';
+    font-weight:  bold;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px 0px;
+}
+
+#Resume h2 {
+    background: #fff;
+    box-shadow: 0px 2px 3px #ccc;
+    -moz-box-shadow: 0px 2px 3px #ccc;
+    -webkit-box-shadow: 0px 2px 3px #ccc;
+    -o-box-shadow: 0px 2px 3px #ccc;
+    -ms-box-shadow: 0px 2px 3px #ccc;
+    border-radius: 3px;
+    color: #ff7f66;
+    font-size: 35px;
+    font-family: 'Abel';
+    font-weight:  bold;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px 0px;
+}
+
+#About h2 {
     background: #fff;
     box-shadow: 0px 2px 3px #ccc;
     -moz-box-shadow: 0px 2px 3px #ccc;
@@ -613,6 +648,11 @@
     color: #ff7f66;
 }
 
+#Portfolio .work h4 {
+    color: white;
+    margin-top: 1%;
+    font-size: 20px;
+}
  
 /*#Portfolio .work .projectThumb {
     position: absolute;
@@ -627,8 +667,8 @@
 
 #Portfolio .work {
     background-color: #FF7F66;
-    min-height: 200px;
-    max-height: 200px;
+    min-height: 475px;
+    max-height: 475px;
     box-shadow: 0px 2px 3px #ccc;
     -moz-box-shadow: 0px 2px 3px #ccc;
     -webkit-box-shadow: 0px 2px 3px #ccc;
@@ -643,11 +683,16 @@
     font-weight: bold;
 }
 
+#Portfolio .work p.viewCode:hover {
+    color: #D86173;
+    font-size: 20px;
+}
+
 #Portfolio .work p {
     margin-top: 5%;
     margin-bottom: 5%;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 #Portfolio .work .btn {
@@ -1136,8 +1181,8 @@
     margin: auto;
 }
 .work img {
-    min-height: 200px;
-    max-height: 200px;
+    min-height: 250px;
+    max-height: 250px;
 }
 
 .sliceVid {
