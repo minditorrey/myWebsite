@@ -461,19 +461,20 @@
     background-color: #0193b8;
     line-height: 20px;
 }
-#About .row .aboutMe .love p {
-    font-size: 18px;
-    font-family: 'Abel';
-}
+
 
 #About .row .aboutMe .love .loveDiv p {
-    font-size: 28px;
+    font-size: 18px;
+    font-family: 'Abel';
+    padding-top: 5%;
+    text-align: left;
 }
 
 #About .row .aboutMe .love .loveDiv {
     padding: 5%;
     text-align: center;
     font-size: 24px;
+
 }
 #About .row .aboutMe .love .strengthDiv {
     padding: 5%;
@@ -494,6 +495,7 @@
     padding-top: 5%;
     font-size: 18px;
     font-family: 'Abel';
+    text-align: left;
 }
 
 #About .row .aboutMe .strength h3 {
