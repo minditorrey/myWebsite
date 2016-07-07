@@ -677,6 +677,10 @@
     -ms-box-shadow: 0px 2px 3px #ccc;
 
 }
+
+#Portfolio .work .linkd {
+    max-width: 500px;
+}
 #Portfolio .work h2 {
     -webkit-box-shadow: none;
     color: white;
