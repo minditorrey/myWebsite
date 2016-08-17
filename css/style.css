@@ -602,6 +602,7 @@
     padding: 15px 0px;
 
 }
+
 #Portfolio h2 a.next {
     background: #ff7f66;
     border-radius: 3px;
@@ -621,6 +622,11 @@
     -o-transition: all 0.2s ease-in-out;
     -ms-transition: all 0.2s ease-in-out;
 }
+
+#Portfolio h2 small {
+    font-size: .5em;
+}
+
 #Portfolio h2 a.next:hover {
     background: #333;
     color: #ff7f66;
@@ -666,10 +672,17 @@
 
 }*/
 
+
+#Portfolio img {
+    min-height: 350px;
+}
+
 #Portfolio .work {
     background-color: #FF7F66;
-    min-height: 500px;
+    text-align: left;
+    min-height: 650px;
     max-height: 500px;
+    padding: 20px;
     box-shadow: 0px 2px 3px #ccc;
     -moz-box-shadow: 0px 2px 3px #ccc;
     -webkit-box-shadow: 0px 2px 3px #ccc;
@@ -689,15 +702,22 @@
 }
 
 #Portfolio .work p.viewCode:hover {
-    color: #D86173;
+    color: #4d4647;
     font-size: 20px;
 }
 
 #Portfolio .work p {
     margin-top: 5%;
     margin-bottom: 5%;
-    color: white;
+    color: #4d4647;
     font-size: 16px;
+}
+
+#Portfolio .work img.viewCode {
+    max-width: 40px;
+    max-height: 40px;
+    min-height: 40px;
+    margin-top: -3%;
 }
 
 #Portfolio .work .btn {
