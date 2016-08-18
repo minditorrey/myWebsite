@@ -463,21 +463,26 @@
 }
 
 
-#About .row .aboutMe .love .loveDiv p {
+#About .row .aboutMe .love .loveDiv p.create {
     font-size: 18px;
     font-family: 'Abel';
-    padding-top: 5%;
+    padding-top: 1%;
+    text-align: left;
+}
+#About .row .aboutMe .love .strengthDiv p.create {
+    font-size: 18px;
+    font-family: 'Abel';
+    padding-top: 1%;
     text-align: left;
 }
 
 #About .row .aboutMe .love .loveDiv {
-    padding: 5%;
-    text-align: center;
+    padding: 2%;
     font-size: 24px;
 
 }
 #About .row .aboutMe .love .strengthDiv {
-    padding: 5%;
+    padding: 2%;
 }
 
 .left {
